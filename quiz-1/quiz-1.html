@@ -3,5 +3,87 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>หน้า login</title>
+        <title>หน้าข้อมูลส่วนตัว</title>
     </head>
+    <style>
+        H1{text-align: center;}
+        #shelf{background-color: #ffffff; width: 350px; height: 150px;; border: black; float:left}
+        #sh{text-indent: 10%; }
+        #topper{color:#04206d; background-color:#94bdff;}
+        #under{color:#2b5480; background-color:#ffffff}
+        body{font-family: 'Prompt', sans-serif; background-color: rgb(196, 196, 196);}
+        table,th,td{border:1px solid black; border-collapse: collapse; margin-left: 30%;}
+        #pto{margin-top: 100px;}
+    </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Krub:ital@1&display=swap" rel="stylesheet">
+    <body>
+        <H1>ข้อมูลส่วนตัว</H1>
+        <div id="shelf">
+            <img src="picture/pto.jpg" alt="พริ้โต" border:1px solid black;>
+            <div id="sh">พี่โต ริคาโด้</div>
+            <div id="sh">Ricardo Milos</div>
+            <div id="sh">6219999999</div>
+        </div id="shelf">
+        <table style="width:15%">
+            <tr>
+                <th id="topper">ชื่อ-นามสกุล(ไทย)</th>
+            </tr>
+                <th id="under">พี่โต</th>
+            </tr>
+                <th id="topper">ชื่อ-นามสกุล(Eng)</th>
+            </tr>
+                <th id="under">Ricardo Milos</th>
+            </tr>
+                <th id="topper">สาขาวิชาเอก</th>
+            </tr>
+                <th id="under">นักร้องนำ</th>
+            </tr>
+                <th id="topper">สาขาวิชา</th>
+            </tr>
+                <th id="under">เพาะกายชาย</th>
+            </tr>
+                <th id="topper">รหัสนักศึกษา</th>
+            </tr>
+                <th id="under">22052557</th>
+            </tr>
+                <th id="topper">บัตรประชาชน</th>
+            </tr>
+            <th id="under">1644865234784</th>
+            </tr>
+                <th id="topper"h>เพศ</th>
+            </tr>
+                <th id="under">ชาย</th>
+            </tr>
+                <th id="topper">สัญชาติ</th>
+            </tr>
+                <th id="under">ไทย</th>
+            </tr>
+                <th id="topper">ศาสนา</th>
+            </tr>
+                <th id="under">ปีศาจ</th>
+            </tr>
+                <th id="topper"h>หมู่เลือด</th>
+            </tr>
+                <th id="under">บวก</th>
+            </tr>
+                <th id="topper">วัน-เดือน-ปีเกิด</th>
+            <tr>  
+                <th id="under">21 มีนาคม 2497</th>
+            </tr>
+            </table>
+        <div id="pto">ยืนยันตัวพี่โต</div>
+            <form method="GET" action="Check_login.html">
+                <lable for="username">รหัสผู้ใช้งาน</lable>
+                <input type="text" id="username">
+                <br>
+                <lable for="passwd">รหัสผ่าน</lable>
+                <input type="password" id="passwd">
+                <br>
+                <input type="checkbox">จำรหัสผู้ใช้งาน
+                <br>
+                <input type="submit" value="เข้าสู่ระบบ">
+                <input type="reset" value="ยกเลิก">
+            </form>
+    </body>
